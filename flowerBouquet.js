@@ -104,17 +104,17 @@ var colorFilter = function () {
         switch (choice) {
 		case '1' :
 			bouquet.setName(['Daisy', 'Lilly', 'Lotus']);
-			console.log('All White flowers are :' + bouquet.getName());
+			console.log('All White flowers are : ' + bouquet.getName());
             colorFilter();
 			break;
 		case '2' :
 			bouquet.setName(['Rose']);
-			console.log('All Red flowers are :' + bouquet.getName());
+			console.log('All Red flowers are : ' + bouquet.getName());
             colorFilter();
 			break;
 		case '3' :
 			bouquet.setName(['Sunflower', 'Petunia']);
-			console.log('All Yellow flowers are :' + bouquet.getName());
+			console.log('All Yellow flowers are : ' + bouquet.getName());
             colorFilter();
 			break;
 		default :
