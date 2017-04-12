@@ -1,10 +1,4 @@
 //New Year gift using Modern Pattern
-var weight = 0,
-    priceList = [sweetOne.getItemPrice(), sweetTwo.getItemPrice(), sweetThree.getItemPrice()],
-	weightList = [sweetOne.getItemWeight(),
-	              sweetTwo.getItemWeight(),
-	              sweetThree.getItemWeight()];
-
 var Gift = function (price, weight, quantity) {
 	this.price = price;
 	this.weight = weight;
@@ -33,6 +27,12 @@ function object (sweet) {
 	NewYear.prototype = sweet;
 	return new NewYear();
 };
+
+var weight = 0,
+    priceList = [sweetOne.getItemPrice(), sweetTwo.getItemPrice(), sweetThree.getItemPrice()],
+	weightList = [sweetOne.getItemWeight(),
+	              sweetTwo.getItemWeight(),
+	              sweetThree.getItemWeight()];
 
 var prompt = require('prompt');
 var promptSweet = function (callback) {
