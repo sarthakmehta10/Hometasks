@@ -30,6 +30,4 @@ var runner = function () {
 	});
 };
 
-module.exports = {
-    runner : runner
-}
+exports.runner = runner;
